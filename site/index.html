@@ -2,9 +2,37 @@
 <html>
 <head>
 	<title>my first webpage</title>
+	<style type="text/css">
+		
+		.heading {
+			color: green;
+			font-size: 36px;
+			text-align: center;
+		}
+
+		.maintxt {
+			color: blue;
+			font-size: 20px;
+
+		}
+		.quotes {
+			color: black;
+			text-align: center;
+		}
+
+		.links {
+			background: red;
+			font-size: 20px;
+			text-align: center;
+		}
+
+		.alignc {
+			text-align: center;
+		}
+	</style>
 </head>
 <body>
-	<h1>Unordered list</h1>
+	<h1 class="heading">Unordered list</h1>
 	<div>
 		<ul>
 			
@@ -21,7 +49,7 @@
 
 	</div>
 
-	<h1>Ordered list</h1>
+	<h1 class="heading">Ordered list</h1>
 	<div>
 		Oreo cokkie eating procedure
 		<ol>
@@ -38,16 +66,16 @@
 		</ol>
 	</div>
 
-	<h1>Using HTML special character set as normal character set</h1>
+	<h1 class="heading">Using HTML special character set as normal character set</h1>
 
-	<h2>&quot; Don't be afraid to be &lt;then a 100% success &amp; &gt;more &quot;</h2>
+	<h2 class="quotes">&quot; Don't be afraid to be &lt;then a 100% success &amp; &gt;more &quot;</h2>
 
-	<a href="second_page.html" title="second Page"> go to second page </a>
+	<a href="second_page.html" title="second Page" class="links"> go to second page </a>
 
-	<p>
+	<p class="alignc">
 		<img src='bank-getty.jpg' width="200" height="200">
 	</p>
 
-	<footer>ISHAN GARG &copy; 2020</footer>
+	<footer class="alignc">ISHAN GARG &copy; 2020</footer>
 </body>
 </html>
