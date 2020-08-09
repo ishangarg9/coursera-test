@@ -1,9 +1,14 @@
-#bg {
-	width: 290px;
-	height: 400px;
-	background-color: blue;
-	background-image: url("srk.jpg");
-	background-repeat: no-repeat;
-	color: white;
-	font-style: italic;
+* {
+	box-sizing: border-box;
+}
+
+
+p {
+	width: 50%;
+	float: left;
+	padding: 10px;
+}
+
+section {
+	clear: left;
 }
